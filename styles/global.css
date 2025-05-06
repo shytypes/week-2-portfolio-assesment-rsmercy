@@ -172,6 +172,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
 .output {
   max-width: 400px;
   margin: 30px auto;
