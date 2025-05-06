@@ -17,11 +17,81 @@
     <link rel="stylesheet" href="styles/global.css" />
   </head>
   <body>
-    <!-- Header Area -->
-    <header></header>
-    <!-- Main Area -->
-    <main>
-      <h1>My Amazing Portfolio</h1>
-    </main>
+      <div class="container">
+        
+        <header>
+            <a class="site_profile" href="#">
+                <img src="assets/images/wall.jfif" alt="" width="30" height="30">
+
+                <label>Ramat Portfolio</label>
+            </a>
+
+            <div class="site_nav">
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="services">Services</a></li>
+                    <li><a href="features">Features</a></li>
+                    <li><a href="contacts">Contacts</a></li>
+                    <li><a href="aboutus">About Us</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="intro">
+                <label> 
+                    Welcome <br/>
+                    <i> to </i>
+
+                </label>
+
+                <h1>My First websites</h1>
+                <a class="button" href="#products">Explore</a>
+            </div>
+
+
+            <h3>PRODUCTS</h3>
+            <div id="products" class="products">
+                <div class="card"><h3>Web Development</h3>
+                    <p>We build responsive and engaging websites that work on any device, offering seamless user experiences.</p>
+                </div>
+                <div class="card"><h3>Python</h3>
+                <p>Python is a programming language that lets you work quickly and integrate systems more effectively</p>
+                </div>
+                <div class="card"><h3>PHP</h3>
+                <p>PHP (Hypertext Preprocessor) is a scripting language primarily used for server-side web development, <br>
+                allowing developers to generate dynamic content and interact with database</p>
+                </div>
+            </div>
+
+        <h2>Contact Us</h2>
+
+        <form id="contactForm" class="contact-form">
+          <label>First Name:
+            <input type="text" id="firstName" required>
+          </label>
+          <label>Last Name:
+            <input type="text" id="lastName" required>
+          </label>
+          <label>Email:
+            <input type="email" id="email" required>
+          </label>
+          <label>Message:
+            <textarea id="message" rows="4" required></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      
+        <div id="output" class="output"></div>
+
+        <footer>
+            copyright @Rsmercy
+        </footer>
+    </div>
+    <script src="styles/script.js"></script>
   </body>
+
+    <!-- Header Area -->
+   
+    <!-- Main Area -->
 </html>
