@@ -64,45 +64,31 @@
                 </div>
             </div>
 
-          <section>
-            <h1>Contact Us</h1>
-            <form>
-              <fieldset>
-                <legend><strong>Enter your details</strong></legend>
-    
-                <label for="firstName"
-                  >First Name:
-                  <input type="text" id="firstName" name="firstName" required />
-                </label>
-    
-                <label for="lastName"
-                  >Last Name:
-                  <input type="text" id="lastName" name="lastName" required />
-                </label>
-    
-                <label for="email"
-                  >Email:
-                  <input type="email" id="email" name="email" required />
-                </label>
-    
-                <label for="Message"
-                  >Message:
-                  <input type="text" id="message" name="message" required />
-                </label>
-              </fieldset>
-              <button type="submit">Submit</button>
-            </form>
-          </section>
-          <section>
-            <ul id="result-view"></ul>
-          </section>
-        </main>
-        <script src="./script.js"></script>
+        <h2>Contact Us</h2>
+
+        <form id="contactForm" class="contact-form">
+          <label>First Name:
+            <input type="text" id="firstName" required>
+          </label>
+          <label>Last Name:
+            <input type="text" id="lastName" required>
+          </label>
+          <label>Email:
+            <input type="email" id="email" required>
+          </label>
+          <label>Message:
+            <textarea id="message" rows="4" required></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      
+        <div id="output" class="output"></div>
 
         <footer>
-            Footer
+            copyright @Rsmercy
         </footer>
     </div>
+    <script src="styles/script.js"></script>
   </body>
 
     <!-- Header Area -->
